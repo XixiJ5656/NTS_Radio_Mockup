@@ -1,8 +1,10 @@
 import React from "react";
+import Mbox from "./Mbox";
 
-function NtsPicks() {
+const NtsPicks = () => {
   return (
     <div>
+      <h1>NTS PICKS</h1>
       <div className="mbox-row">
         <Mbox />
         <Mbox />
@@ -26,6 +28,6 @@ function NtsPicks() {
       </div>
     </div>
   );
-}
+};
 
 export default NtsPicks;

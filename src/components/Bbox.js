@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 function Bbox(props) {
   const { image, title, type, description } = props;
